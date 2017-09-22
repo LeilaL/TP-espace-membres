@@ -3,6 +3,7 @@ include("template/header.php");
  ?>
 
  <div class="row" style="margin-bottom: 30px; margin-top:30px;">
+   <a href="../controleur/deconnexion.php">Déconnexion</a>
    <form class="col s12">
      <!-- <div class="row"> -->
        <div class="input-field col s10">
