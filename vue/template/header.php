@@ -23,7 +23,7 @@
       <a href="inscription.php" class="brand-logo">Logo</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="#">1</a></li>
-        <li><a href="connexion.php">Connexion</a></li>
+        <li><a href="../vue/connexion.php">Connexion</a></li>
         <li><a href="#">3</a></li>
       </ul>
     </div>

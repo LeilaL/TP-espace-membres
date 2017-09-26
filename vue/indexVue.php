@@ -3,7 +3,7 @@ include("template/header.php");
  ?>
 
  <div class="row" style="margin-bottom: 30px; margin-top:30px;">
-   <form class="col s12" method="post"action="../controleur/index.php" >
+   <form class="col s12" method="post" action="../controleur/index.php" >
      <!-- <div class="row"> -->
        <div class="input-field col s10">
          <input id="first_name" name="pseudo" type="text" class="validate">
@@ -12,14 +12,14 @@ include("template/header.php");
 
      <!-- <div class="row"> -->
        <div class="input-field col s10">
-         <input id="password" type="password" name="mdp" class="validate">
+         <input id="password" type="password" name="pass" class="validate">
          <label for="password">Password</label>
        </div>
      <!-- </div> -->
 
      <!-- <div class="row"> -->
        <div class="input-field col s10">
-         <input id="password" type="password" name="pass" class="validate">
+         <input id="password" type="password" name="conf_pass" class="validate">
          <label for="password">Confirmation Password</label>
        </div>
      <!-- </div> -->
@@ -31,7 +31,7 @@ include("template/header.php");
        </div>
      <!-- </div> -->
      <div class="input-field col s6">
-        <input class="waves-effect btn light-blue darken-1" value="Envoyer" type="submit" name="envoie">
+        <input class="waves-effect btn light-blue darken-1" value="Envoyer" type="submit" name="ok">
       </div>
 
    </form>
